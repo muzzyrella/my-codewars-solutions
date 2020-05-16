@@ -4,6 +4,3 @@ function printerError(s) {
     if(errors) for(i of errors) errorCount++;
     return `${errorCount}/${s.length}`
 }
-
-const testString = "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"
-console.log(printerError(testString))

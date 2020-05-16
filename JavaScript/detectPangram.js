@@ -9,5 +9,3 @@ function isPangram(string) {
     } while (check && n < alphabet.length);
     return check;
 }
-
-console.log(isPangram("The quick brown fox jumps over the lazy dog."));

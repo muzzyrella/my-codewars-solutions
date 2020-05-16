@@ -5,5 +5,3 @@ const sequenceSum = (begin, end, step) => {
     }
     return totalSum;
 };
-
-console.log(sequenceSum(1, 5, 1));

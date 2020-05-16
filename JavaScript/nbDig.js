@@ -6,5 +6,3 @@ function nbDig(n, d) {
     }
     return digits;
 }
-
-console.log(nbDig(5750, 0));
