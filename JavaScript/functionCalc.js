@@ -1,9 +1,9 @@
 function number(n) {
-    return function(op) {
-        if(!op) return n;
+    return function (op) {
+        if (!op) return n;
         return Math.floor(op(n));
     };
-};
+}
 
 const one = number(1);
 const two = number(2);
@@ -18,13 +18,13 @@ const zero = number(0);
 
 function plus(num) {
     return (n) => n + num;
-};
+}
 function minus(num) {
     return (n) => n - num;
-};
+}
 function times(num) {
     return (n) => n * num;
-};
+}
 function dividedBy(num) {
     return (n) => n / num;
-};
+}

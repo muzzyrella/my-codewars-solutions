@@ -4,12 +4,10 @@ const memo = (func) => {
         const key = JSON.stringify(arguments);
         if (cache[key]) {
             return cache[key];
-        }
-        else {
+        } else {
             const val = func.apply(this, arguments);
             cache[key] = val;
             return val;
         }
-        ;
     };
 };
